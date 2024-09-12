@@ -3,7 +3,7 @@ import java.util.*;
 public class Grade01 {
     public static void main(String[] args)
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("輸入分數(1~100):");
         int Score =sc.nextInt();
         if(Score>=90)
@@ -16,5 +16,6 @@ public class Grade01 {
         System.out.println(Score+"D");
         else 
         System.out.println(Score+"F");
+        sc.close();
     }
 }

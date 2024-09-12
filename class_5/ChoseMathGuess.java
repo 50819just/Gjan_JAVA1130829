@@ -20,6 +20,6 @@ public class ChoseMathGuess {
                 System.out.println("Bingo");
                 break;
             }
-        }
+        } sc.close();
     }
 }
